@@ -1,0 +1,41 @@
+.navbarStyle {
+  display: flex;
+  justify-content: flex-start;
+  background-color: orange;
+  margin-bottom: 3em;
+}
+
+.offers_container {
+  display: flex;
+  flex-wrap: wrap;
+
+  border-left: ridge;
+}
+
+.submit_container {
+  border-style: solid;
+  padding: 0.5em;
+}
+
+.offer_item {
+  border-style: solid;
+  margin: 1em;
+  width: fit-content;
+  max-height: max-content;
+  padding: 0 1em 1em 1em;
+}
+
+.search_bar {
+  width: 30%;
+  margin: auto;
+}
+
+.offer_title {
+  font-weight: bold;
+  border-bottom-style: ridge;
+}
+
+.offer_email_url {
+  text-decoration: underline;
+  cursor: pointer;
+}
